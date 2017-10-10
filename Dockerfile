@@ -1,5 +1,4 @@
 FROM jenkins/jenkins
-ENV STF_AUTH f82bcdc614e54f4f941087adf7d20d55af4dabc1e50c42da8f06ce9928d6a4f7
 USER root
 RUN apt-get update
 RUN apt-get install -y git curl apache2 python2.7 python-pip
