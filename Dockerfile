@@ -3,6 +3,7 @@ USER root
 RUN apt-get update
 RUN apt-get install -y git curl apache2 python2.7 python-pip
 RUN yes|apt-get install software-properties-common
+RUN pip install requests
 RUN apt-get update
 RUN yes|apt-get upgrade --allow-unauthenticated
 
